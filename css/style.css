@@ -87,9 +87,25 @@ align-items: center;
 
 .banner-content-wrap .banner-content-right{
     text-align: center;
+    position: relative;
 }
+
+.banner-content-wrap .banner-content-right  .audio-wrap{ 
+ /* position: absolute; */
+
+}
+
 .banner-content-wrap .banner-content-right  img{
 max-width: 100%;
 margin:0 auto;
-}
+animation:anime 2s linear infinite; 
 
+}
+ 
+@keyframes anime {
+    0%{ transform:translateY(-10px);}
+    50%{ transform:translateY(20px)scale(1.075); 
+    
+    }
+    100%{ transform:translateY(-10px);}
+}
