@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    position:absolute;
+    top:50px;
+    left:60px;
+    
+}
+
+header nav figure{
+    display:flex;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+header nav figure img {
+    max-width: 5%;
+
+}
+header nav figure h2{
+    font-size: 18px;
+}
+.banner-wrapper{
+    background: url(../img/Banner.png);
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.banner-wrapper .banner-content-wrap{
+    padding-top: 5rem;
+display: flex;
+align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.banner-content-wrap .banner-content-left h1{
+    font-size: 65px;
+    font-weight: normal;
+}
+
+.banner-content-wrap .banner-content-left h1 b{ 
+ font-weight: bold;
+}
+ .banner-content-left .button-group-wrap .shop-btn{
+    background: #c4ecec;
+    font-weight:normal;
+    margin-left:0.5rem;
+
+ }
+ .banner-content-left .button-group-wrap .shop-btn:hover{
+ background: white;
+ transition: all .3s ease-in-out;
+ transform:scale(1.035);
+}
+ .banner-content-left .button-group-wrap .buy-btn:hover{
+ background:#c4ecec;
+ transition: all .3s ease-in-out;
+ transform:scale(1.035);
+}
+ .banner-content-left .button-group-wrap button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 100px;
+    border: none;
+    margin-top:1.5rem;
+    font-size:16px;
+    font-weight:bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+.banner-content-wrap .banner-content-right{
+    text-align: center;
+}
+.banner-content-wrap .banner-content-right  img{
+max-width: 100%;
+margin:0 auto;
+}
+
