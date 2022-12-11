@@ -109,3 +109,100 @@ animation:anime 2s linear infinite;
     }
     100%{ transform:translateY(-10px);}
 }
+
+/* category wrapper start */
+
+.category-wrapper{
+    background: url(../img/Banner.png);
+    padding:2rem 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.category-wrapper .category-heading h2{
+    font-size: 36px;
+    padding: .5rem 0 1.5rem;
+    text-align: center;
+
+    
+}
+.category-content-wrap .shop-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-gap:2rem;
+}
+.category-content-wrap .shop-box  li h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: .5rem 0;
+    text-transform: capitalize;
+    
+
+}
+.category-content-wrap .shop-box  li figcaption{
+    text-align: center;
+}
+.category-content-wrap .shop-box  li figcaption p{
+     font-size: 14px;
+     text-transform: capitalize;
+     word-break: break-word;
+}
+.category-content-wrap .shop-box  li:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.282);
+    transition:all .3s ease-in-out;
+    transform: rotate(4deg);
+}
+.category-content-wrap .shop-box  li{
+    background: #fff;
+    padding: 16px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    list-style-type: none;
+    transition: all .3s ease-in-out;
+}
+.category-content-wrap .shop-box  li figure{
+    overflow: hidden;
+    border-top-right-radius: 50px;
+}
+.category-content-wrap .shop-box  li img:hover{
+    transition: all .3s ease-in-out;
+    border-top-right-radius: 50px;
+    transform: scale(1.35);
+
+}
+.category-content-wrap .shop-box  li img{
+max-width: 100%;
+border-top-right-radius: 50px;
+transition: all .3s ease-in-out;
+
+
+}
+.category-wrapper .category-content-wrap .shop-btn button{
+padding: 1rem 0;
+font-size: 16;
+font-weight: bold;
+border-radius: 100px;
+border: none;
+cursor: pointer;
+padding: 0.5rem 1.5rem;
+background-color: #c4ecec;
+font-size: 16px;
+transition: all .3s ease-in-out;
+}
+.category-wrapper .category-content-wrap .shop-btn button:hover{
+    background: #fff;
+    transform: scale(1.35);
+    transition: all .3s ease-in-out;
+}
+.category-wrapper .category-content-wrap .shop-btn{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 25px;
+
+}
+/* category end */
+
+
